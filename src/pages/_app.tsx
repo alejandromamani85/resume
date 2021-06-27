@@ -6,12 +6,12 @@ import Container from "../components/container";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <div>
       <Header />
       <Container>
         <Component {...pageProps} />
       </Container>
-    </>
+    </div>
   );
 }
 export default MyApp;
