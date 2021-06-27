@@ -1,9 +1,11 @@
-import NavigationBar from "../components/navigation-bar";
+import React from "react";
+import Photo from "../components/photo";
 
 export default function Home() {
   return (
-    <>
-      <NavigationBar />
-    </>
+    <div>
+      <Photo />
+      <div>This is the home!</div>
+    </div>
   );
 }
